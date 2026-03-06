@@ -1,4 +1,4 @@
-baseURL = 'https://www.lemontroyal.fr'
+baseURL = 'https://lemontroyal.github.io'
 languageCode = 'fr-fr'
 title = 'Le Mont Royal'
 theme = "blowfish"
@@ -7,3 +7,7 @@ theme = "blowfish"
     name = "Contact"
     url = "/contact/"
     weight = 1
+
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images'
